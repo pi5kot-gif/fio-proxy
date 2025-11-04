@@ -7,7 +7,7 @@ app.use(cors());
 
 let lastBalance = "0";
 let lastFetch = 0;
-const FIO_TOKEN = "TVUJ_TOKEN"; // vlož svůj Fio API token
+const FIO_TOKEN = "0SHMGcGMLTYxiW2ICCviFV0RP5u0eE9aQOTUQiMA5ifs2PUhjpKRWcsbHHwSdTIj"; // vlož svůj Fio API token
 
 async function fetchFioApi() {
   const now = Date.now();
